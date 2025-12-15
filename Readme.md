@@ -5,7 +5,7 @@
 This project provides a **Python-based automated flashing utility** for **ESP32-S3 devices**.  
 It continuously monitors available UART ports and **automatically flashes a firmware binary (`firmware.bin`)** when a new device is connected.
 
-The tool supports **parallel flashing**, making it suitable for **production lines, batch testing, and rapid firmware deployment**.
+The tool supports **parallel flashing**, making it suitable for **production lines, batch testing and rapid firmware deployment**.
 
 ---
 
@@ -102,16 +102,5 @@ Modify these values directly in the script if required.
 * Ensure `firmware.bin` is present before running the script
 * Avoid disconnecting devices during flashing
 * Use powered USB hubs for large-scale parallel flashing
-
----
-
-## Intended Use Cases
-
-* Production firmware flashing
-* R&D lab automation
-* Manufacturing end-of-line testing
-* Educational and institutional labs
-
-```
 
 ---
